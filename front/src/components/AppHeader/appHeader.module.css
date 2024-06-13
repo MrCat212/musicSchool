@@ -1,0 +1,148 @@
+.header{
+    background-color: inherit;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 65rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.contacts_holder{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1em;
+    margin-right: 10em;
+}
+
+.contacts_holder a{
+    display: flex;
+    align-items: center;
+}
+
+.phone_number{
+    font-size: 25px;
+    margin-inline-start: 0.2em;
+}
+
+.authorization_buttons{
+    margin-inline-start: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media(max-width: 515px){
+    .authorization_buttons{
+        flex-direction: column;
+    }
+
+    .header{
+        height: 8rem;
+        width: 70vw;
+    }
+
+    .headerButtons{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 635px){
+    .authorization_buttons{
+        flex-direction: column;
+    }
+
+    .header{
+        min-width: 90vw !important;
+    }
+
+    .headerButtons{
+        flex-direction: column;
+    }
+}
+
+.icons{
+    font-size: 35px;
+    width: 35px;
+}
+
+.icons:hover{
+    color: gray;
+}
+
+
+@media(max-width: 870px){
+    .header{
+        max-width: 55rem;
+        min-width: 45rem;
+    }
+    .icons{
+        width: 30px;
+    }
+    .icons:hover{
+        background-color: gray;
+    }
+    .phone_number{
+        font-size: medium;
+    }
+    .contacts_holder{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 715px){
+    .icons{
+        width: 20px;
+    }
+    .logo{
+        height: 130px;
+        width: 130px;
+        flex-shrink: 0;
+    }
+    .header{
+        max-width: 100%;
+        padding: 0 30px;
+        padding-top: 20px;
+        gap: 15px
+    }
+    .phone_number{
+        display: none;
+    }
+    .authorization_buttons{
+        flex-wrap: wrap;
+        margin-left: auto;
+        flex-direction: row;
+        align-items: start;
+    }
+    .button{
+        width: 120px;
+    }
+}
+
+@media(max-width: 400px){
+    .header{
+        left: 7rem;
+    }
+}
+
+.authIcons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.notAuthIcons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media(max-width: 600px){
+    .notAuthIcons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

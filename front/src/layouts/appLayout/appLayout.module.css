@@ -1,0 +1,15 @@
+.layout{
+    background-color: inherit;
+    align-items: center;
+    row-gap: 20vh;
+}
+
+.bodyStyles{
+    display: flex; 
+    justify-content: center;
+    margin-top: 6rem;
+
+    @media(max-width: 715px){
+        margin-top: 13rem;
+    }
+}

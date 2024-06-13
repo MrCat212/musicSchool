@@ -1,0 +1,28 @@
+.conf{
+    color: blue;
+    text-align: center;
+}
+
+.conf:visited{
+    color: lightblue;
+}
+
+.status{
+    width: 100%;
+}
+
+:global(.ant-table-cell){
+    text-align: center;
+}
+
+.danger{
+    background-color: #ffb6c1;
+}
+
+:global(.ant-input-number-input){
+    text-align: center !important;
+}
+
+:global(.ant-table-cell){
+    text-align: center !important;
+}

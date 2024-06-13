@@ -1,0 +1,24 @@
+.plans{
+    background-color: lightpink;
+    text-align: center;
+}
+
+.going{
+    background-color: lightyellow;
+    text-align: center;
+}
+
+.complete{
+    background-color: lightgreen;
+    text-align: center;
+    :global(.ant-table-cell){
+        width: 110% !important;
+    }
+}
+
+.table.table.table.table.table.table.table.table.table.table.table.table.table{
+    text-align: center !important;
+    :global(.ant-table-cell){
+        text-align: center !important;
+    }
+}

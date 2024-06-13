@@ -1,0 +1,22 @@
+.home{
+    flex-direction: column;
+    align-items: center;
+    max-width: 40rem;
+    padding: 1rem;
+}
+
+.title{
+    background-color: #B7B0BE;
+    padding: 10px 50px;
+    border-radius: 40px;
+}
+
+.subTitle{
+    margin-inline-end: auto;
+    margin-top: 40px;
+}
+
+.listElement{
+    text-indent: -20px;
+    margin-left: 20px;
+}
